@@ -1,0 +1,38 @@
+.header {
+  padding: 2rem 4rem;
+  color: #fff;
+  background-color: rgb(17, 0, 95);
+}
+.wrapper {
+  display: flex;
+  column-gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper input {
+  display: block;
+  padding: 0.75rem 1.5rem;
+  width: 500px;
+  border: none;
+  font-size: 1rem;
+  color: #000;
+}
+.wrapper input:focus {
+  outline: none;
+}
+.wrapper button {
+  display: block;
+  padding: 0.75rem 1.5rem;
+  width: 200px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  color: #fff;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.2s linear;
+  font-weight: bold;
+}
+.wrapper button:hover {
+  background-color: #fff;
+  color: rgb(17, 0, 95);
+}

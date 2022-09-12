@@ -1,0 +1,23 @@
+.phoneThumbnail {
+  padding: 2rem;
+  max-width: 1170px;
+  margin: 4rem auto;
+  background-color: #ccc;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+  justify-items: center;
+  align-items: center;
+  gap: 1rem;
+}
+.phoneThumbnail article {
+  width: 20rem;
+  background-color: red;
+}
+
+.phoneThumbnail img {
+  width: 100%;
+  height: 20rem;
+  display: block;
+  object-fit: cover;
+}
