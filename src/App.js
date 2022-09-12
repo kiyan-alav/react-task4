@@ -1,20 +1,12 @@
-import React, { useState } from "react";
-import HeaderSearch from "./components/HeaderSearch";
-import Phone from "./components/Phone";
+import React from "react";
 
 import "./App.css";
+import Form from "./components/Form";
 
 function App() {
-  const [search, setSearch] = useState("");
-
-  const getSearchData = function (searchData) {
-    setSearch(searchData);
-  };
-
   return (
     <div>
-      <HeaderSearch onGetSearch={getSearchData} />
-      <Phone searchData={search} />
+      <Form />
     </div>
   );
 }
